@@ -11,10 +11,8 @@ function sumFibonacci(num: number) {
         arr.push(f3)
         sum += f3;
     }
-
     console.log(arr)
     console.log(sum)
-
 }
 sumFibonacci(5)
 
