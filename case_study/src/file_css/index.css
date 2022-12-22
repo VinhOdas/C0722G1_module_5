@@ -29,7 +29,12 @@ body {
     padding: 0;
     padding-left: 140px;
 }
-
+#diaChi{
+    font-size: 15px !important;
+}
+.fs-4{
+    font-size: 15px !important;
+}
 .list {
     height: 100%;
 }
@@ -43,7 +48,7 @@ body {
 }
 
 .list__item > a {
-    font-size: 16px
+    font-size: 20px
 }
 
 .list__item:hover > a {
@@ -95,10 +100,10 @@ a {
     max-width: 300px;
 }
 
-/*p, a {*/
-/*    font-size: 17px !important;*/
-/*    line-height: 1.6em;*/
-/*}*/
+p, a {
+    font-size: 13px;
+    line-height: 1.6em;
+}
 
 span {
     color: #046056;
