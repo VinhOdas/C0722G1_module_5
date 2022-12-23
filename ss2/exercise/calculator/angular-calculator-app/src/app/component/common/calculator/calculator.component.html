@@ -1,0 +1,24 @@
+<h1>Calculator</h1>
+<div>
+  <label >Number One </label>
+  <input type="number" [(ngModel)]="numberOne" >
+</div>
+<div>
+  <label >Number Two </label>
+  <input type="number" [(ngModel)]="numberTwo">
+</div>
+
+<br>
+<div>
+  <button (click)="sum($event)">+</button>
+  <button (click)="subtraction($event)">-</button>
+  <button (click)="multiplication($event)">*</button>
+  <button (click)="division($event)">/</button>
+</div>
+<br>
+<div>
+  <label  >Result:{{result}} </label>
+  <br>
+  <label  >Error:{{error}} </label>
+
+</div>
