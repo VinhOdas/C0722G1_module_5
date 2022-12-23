@@ -1,0 +1,10 @@
+<h1>Color</h1>
+<div>
+  <label >Number One </label>
+  <input type="text" [(ngModel)]="color" >
+</div>
+<div>
+  <button (click)="swapColor($event)">Swap</button>
+</div>
+<br>
+<div [ngStyle]="{color : result}">Màu</div>
