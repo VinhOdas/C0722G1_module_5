@@ -15,6 +15,7 @@ import { EditFacilityComponent } from './component/common/facility/edit-facility
 import { AddCustomerComponent } from './component/common/customer/add-customer/add-customer.component';
 import { EditCustomerComponent } from './component/common/customer/edit-customer/edit-customer.component';
 import { AddContractComponent } from './component/common/contract/add-contract/add-contract.component';
+import { HomeComponent } from './component/common/home/home.component';
 
 function AddComponent() {
 
@@ -34,7 +35,8 @@ function AddComponent() {
     EditFacilityComponent,
     AddCustomerComponent,
     EditCustomerComponent,
-    AddContractComponent
+    AddContractComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
