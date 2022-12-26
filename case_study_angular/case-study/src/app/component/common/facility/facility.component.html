@@ -54,10 +54,10 @@
       <div class="card" style="width: 35rem;">
         <img src="../../../../assets/images/giuong_khach_san_1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">{{item.name}}</h5>
+          <h5 class="card-title" style="font-size: 30px;color: #046056">{{item.name}}</h5>
           <hr>
           <ul>
-            <li>STT: {{stt + 1}}</li>
+            <li style="color: red; ">STT: {{stt + 1}}</li>
             <hr>
             <li>Name: {{item.name}}</li>
             <hr>
@@ -68,18 +68,26 @@
             <li>Max People: {{item.maxPeople}}</li>
             <hr>
             <li>Standard Room: {{item.standardRoom}}</li>
-            <hr>
-            <li>Description Other Convenience {{item.descripttionOtherCovenience}}</li>
-            <hr>
-            <li>Pool Area: {{item.poolArea}}</li>
-            <hr>
-            <li>Floors: {{item.numberOfFloors}}</li>
-            <hr>
-            <li>Facility Free: {{item.facilityFree}}</li>
-            <hr>
-            <li>Rent Type: {{item.rentType.name}}</li>
-            <hr>
-            <li>Facility Type: {{item.facilityType.name}}</li>
+
+            <li id="xemthemcard{{item.id}}"><button (click)="xemthem(item.id)">Xem thêm</button></li>
+
+            <div id="phanxemthem{{item.id}}" style="display: none">
+              <hr>
+              <li>Description Other Convenience {{item.descripttionOtherCovenience}}</li>
+              <hr>
+              <li>Pool Area: {{item.poolArea}}</li>
+              <hr>
+              <li>Floors: {{item.numberOfFloors}}</li>
+              <hr>
+              <li>Facility Free: {{item.facilityFree}}</li>
+              <hr>
+              <li>Rent Type: {{item.rentType.name}}</li>
+              <hr>
+              <li>Facility Type: {{item.facilityType.name}}</li>
+            </div>
+
+            <li id="thugoncard{{item.id}}" style="display: none"><button (click)="xemthem(item.id)">Thu gọn</button></li>
+
           </ul>
         </div>
       </div>

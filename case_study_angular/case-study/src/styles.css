@@ -323,3 +323,8 @@ th {
   text-align: center;
 }
 /* You can add global styles to this file, and also import other style files */
+li{
+  font-size: 25px;
+  font-style: oblique;
+  font-family: "Agency FB";
+}

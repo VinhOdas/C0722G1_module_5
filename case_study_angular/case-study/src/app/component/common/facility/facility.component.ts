@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {FacilityType} from "../../../../model/facility/facility-type";
 import {RentType} from "../../../../model/facility/rent-type";
 import {Facility} from "../../../../model/facility/facility";
@@ -9,11 +9,14 @@ import {Facility} from "../../../../model/facility/facility";
   styleUrls: ['./facility.component.css']
 })
 export class FacilityComponent implements OnInit {
-  villa: FacilityType ={
+
+  xemthemFlag = false;
+
+  villa: FacilityType = {
     id: 1,
     name: 'villa'
-}
-  house: FacilityType ={
+  }
+  house: FacilityType = {
     id: 2,
     name: 'house'
   }
@@ -63,9 +66,25 @@ export class FacilityComponent implements OnInit {
   ]
 
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
 
+  xemthem(id: number) {
+
+    this.xemthemFlag = !this.xemthemFlag;
+
+
+    // @ts-ignore
+    document.getElementById("xemthemcard" + id).style.display = 'none';
+    // @ts-ignore
+    document.getElementById("phanxemthem" + id).style.display = 'block';
+    // @ts-ignore
+    document.getElementById("thugoncard" + id).style.display = 'block';
+
+
+
+  }
 }
