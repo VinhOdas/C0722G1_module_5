@@ -17,29 +17,24 @@
     <thead>
     <tr>
       <th class="text-center">STT</th>
-      <th>Service</th>
-      <th>Employee</th>
+      <th>Facility</th>
       <th>Customer</th>
       <th>Date Start</th>
       <th>Date End</th>
       <th>Deposit</th>
-      <th>Total Money</th>
       <th class="text-center">Attach Facilities</th>
     </tr>
 
     </thead>
     <tbody align="center">
-    <tr>
-      <td>sad</td>
-      <td>asdasd</td>
-      <td>asdasdas</td>
-      <td>asdasd</td>
-      <td>asdasd</td>
-      <td>asdasd</td>
-      <td>asdasd</td>
-      <td>asdasd</td>
-      <td>asdasd</td>
-
+    <tr *ngFor="let item of contractList">
+      <td>{{item.id}}</td>
+      <td>{{item.facility.name}}</td>
+      <td>{{item.customer.name}}</td>
+      <td>{{item.startDate}}</td>
+      <td>{{item.endDate}}</td>
+      <td>{{item.deposit}}</td>
+      <td></td>
     </tr>
     </tbody>
   </table>

@@ -20,15 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a04cd3b-3e80-4218-88ba-2b96cfd433e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/case-study/src/model/facility/facility-type.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case-study/src/model/facility/facility.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case-study/src/model/facility/rent-type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case-study/src/model/contract/attach-facility.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case-study/src/model/contract/contract-detail.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case-study/src/model/contract/contract.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../case_study/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../case_study/src/contract/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/contract/add.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../case_study/src/customer/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/customer/add.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../case_study/src/customer/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/customer/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../case_study/src/facility/list_service.html" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/facility/list_service.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/contract/contract.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/contract/contract.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/contract/contract.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/contract/contract.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/facility/facility.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/facility/facility.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss1/excesice/fibonacci/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss1/excesice/fibonacci/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss1/practice/typescript-variable/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ss1/practice/typescript-variable/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss1/practice/typescript-variable/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ss1/practice/typescript-variable/src/main.ts" afterDir="false" />
@@ -90,13 +93,14 @@
     <property name="ts.external.directory.path" value="D:\JAVA_REPLY\module_5\C0722G1_module_5\case_study_angular\case-study\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\JAVA_REPLY\module_5\C0722G1_module_5\case_study_angular\case-study\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JAVA_REPLY\module_5\C0722G1_module_5\case_study_angular\case-study\src\model\employee" />
       <recent name="D:\JAVA_REPLY\module_5\C0722G1_module_5\case_study_angular\case-study\src\assets" />
       <recent name="D:\JAVA_REPLY\module_5\C0722G1_module_5\case_study_angular\case-study\src\app" />
       <recent name="D:\JAVA_REPLY\module_5\C0722G1_module_5\case_study_angular\case-study\src\app\component\common" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JAVA_REPLY\module_5\C0722G1_module_5\case_study_angular\case-study\src" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -111,7 +115,7 @@
       <updated>1671776722222</updated>
       <workItem from="1671776723358" duration="6552000" />
       <workItem from="1671788909606" duration="678000" />
-      <workItem from="1672023544686" duration="1022000" />
+      <workItem from="1672023544686" duration="9954000" />
     </task>
     <servers />
   </component>
