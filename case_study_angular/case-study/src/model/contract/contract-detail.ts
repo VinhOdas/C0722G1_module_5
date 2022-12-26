@@ -3,7 +3,7 @@ import {Contract} from "./contract";
 
 export interface ContractDetail {
   id?: number,
-  quantity?: number
+  quantity: number
   attachFacility: AttachFacility
   contract: Contract
 }
