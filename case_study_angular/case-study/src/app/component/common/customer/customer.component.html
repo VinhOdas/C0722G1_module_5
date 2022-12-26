@@ -23,18 +23,17 @@
     </tr>
     </thead>
     <tbody align="center">
-    <tr>
-      <td>sad</td>
-      <td>asdasd</td>
-      <td>asdasdas</td>
-      <td>asdasd</td>
-      <td>asdasd</td>
-      <td>asdasd</td>
-      <td>asdasd</td>
-      <td>asdasd</td>
-      <td>asdasd</td>
-      <td>asdasd</td>
-      <td>asdasd</td>
+    <tr *ngFor="let item of customerList">
+      <td>{{item.id}}</td>
+      <td>{{item.name}}</td>
+      <td>{{item.dateOfBirth}}</td>
+      <td *ngIf="item.gender == 1">Nam</td>
+      <td *ngIf="item.gender == 0">Nữ</td>
+      <td>{{item.idCard}}</td>
+      <td>{{item.phoneNumber}}</td>
+      <td>{{item.email}}</td>
+      <td>{{item.address}}</td>
+      <td>{{item.customerType.name}}</td>
     </tr>
     </tbody>
   </table>
