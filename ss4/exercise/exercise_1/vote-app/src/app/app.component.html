@@ -1,6 +1,9 @@
   <div>Vote</div>
-  <span *ngFor="let item of cha; index as i"  (click)="swapVote(item.vote)">
+  <div *ngIf="cha">
+     <span *ngFor="let item of cha; index as i"  (click)="swapVote(item.vote)">
   <button [ngStyle]="{'background': item.vote<=vote ? 'red' : ''}">{{item.vote}}</button>
 </span>
+
+  </div>
 
 

@@ -8,7 +8,7 @@ import {IRattingUnit} from "./i-ratting-unit";
 })
 
 export class AppComponent implements OnInit{
-vote?: number|undefined;
+vote?: number;
   cha:  IRattingUnit[] = [{
     vote: 1
   },
