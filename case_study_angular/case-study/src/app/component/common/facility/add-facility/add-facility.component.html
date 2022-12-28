@@ -8,6 +8,7 @@
         <div class="card-header">
           <strong id="inDam"><h1 class="card-title" style="color: red">Create Service</h1></strong>
         </div>
+        <form [formGroup]="formReactive">
         <div class="card-body">
           <div class="row col-md-12 col-xl-12 col-sm-12" >
             <div class="col-xl-4 col-md-6 col-sm-12 mb-2">
@@ -19,43 +20,75 @@
               </select>
             </div>
             <div class="col-xl-4 col-md-6 col-sm-12 mb-2">
-              <label class="form-label" for="name_facility">Name Facility:</label>
-              <div class="input-group input-group-merge">
-                <!--                                <span class="input-group-text">US (+1)</span>-->
-                <input type="text" class="form-control phone-number-mask" placeholder="Input Name" id="name_facility">
-              </div>
+              <label class="form-label" >Name Facility:</label>
+              <input type="text" class="form-control phone-number-mask" placeholder="Input Name"
+                     formControlName="name">
+              <span style="color: red" *ngIf="formReactive.controls.name.hasError('required')">  không được để trống</span>
+
             </div>
             <div class="col-xl-4 col-md-6 col-sm-12 mb-2">
               <label class="form-label" for="area">Area</label>
-              <input type="text" class="form-control date-mask" placeholder="1000 mét vuông" id="area">
+              <input type="text" class="form-control date-mask" placeholder="1000 mét vuông" id="area"
+                     formControlName="area">
+              <span style="color: red" *ngIf="formReactive.controls.area.hasError('required')">  không được để trống</span>
             </div>
+
             <div class="col-xl-4 col-md-6 col-sm-12 mb-2">
-              <label class="form-label" for="cost">Cost</label>
-              <input type="text" class="form-control time-mask" placeholder="?" id="cost">
+              <label class="form-label" >Cost</label>
+              <input type="text" class="form-control time-mask" placeholder="?"
+                     formControlName="cost">
+              <span style="color: red" *ngIf="formReactive.controls.cost.hasError('required')">  không được để trống</span>
+
             </div>
             <div class="col-xl-4 col-md-6 col-sm-12 mb-2">
               <label class="form-label" for="numeral-formatting">Max People</label>
-              <input type="text" class="form-control numeral-mask" placeholder="input number people" id="numeral-formatting">
+              <input type="text" class="form-control numeral-mask" placeholder="input number people" id="numeral-formatting"
+                     formControlName="maxPeople">
+              <span style="color: red" *ngIf="formReactive.controls.maxPeople.hasError('required')">  không được để trống</span>
+
             </div>
             <div class="col-xl-4 col-md-6 col-sm-12 mb-2">
               <label class="form-label" for="standardRoom">Standard Room</label>
-              <input type="text" class="form-control block-mask" placeholder="loại phòng" id="standardRoom">
+              <input type="text" class="form-control block-mask" placeholder="loại phòng" id="standardRoom"
+                     formControlName="standardRoom">
+              <span style="color: red" *ngIf="formReactive.controls.standardRoom.hasError('required')">  không được để trống</span>
+
             </div>
             <div class="col-xl-4 col-md-6 col-sm-12 mb-2">
-              <label class="form-label" for="descriptionOtherConvenience">Description Other Convenience</label>
-              <input type="text" class="form-control delimiter-mask" placeholder="" id="descriptionOtherConvenience">
+              <label class="form-label" >Description Other Convenience</label>
+              <div class="input-group input-group-merge">
+
+                <input type="text" class="form-control delimiter-mask"
+                       formControlName="descripttionOtherCovenience">
+              </div>
+              <span style="color: red" *ngIf="formReactive.controls.descripttionOtherCovenience.hasError('required')">  không được để trống</span>
+
+
             </div>
             <div class="col-xl-4 col-md-6 col-sm-12 mb-2">
-              <label class="form-label" for="poolArea">poolArea</label>
-              <input type="text" class="form-control custom-delimiter-mask" placeholder="poolArea" id="poolArea">
+              <label class="form-label" >poolArea</label>
+              <input type="text" class="form-control custom-delimiter-mask" placeholder="poolArea"
+                     formControlName="poolArea">
+              <span style="color: red" *ngIf="formReactive.controls.poolArea.hasError('required')">  không được để trống</span>
+
+
             </div>
             <div class="col-xl-4 col-md-6 col-sm-12 mb-2">
-              <label class="form-label" for="numberFloors">numberFloors</label>
-              <input type="text" class="form-control prefix-mask" id="numberFloors">
+              <label class="form-label" >numberFloors</label>
+              <div class="input-group input-group-merge">
+                <input type="text" class="form-control prefix-mask"
+                       formControlName="floor">
+              </div>
+              <span style="color: red" *ngIf="formReactive.controls.floor.hasError('required')">  không được để trống</span>
             </div>
+
+
+
             <div class="col-xl-4 col-md-6 col-sm-12 mb-2">
               <label class="form-label" for="facilityFree">facilityFree</label>
-              <input type="text" class="form-control prefix-mask" id="facilityFree">
+              <input type="text" class="form-control prefix-mask" id="facilityFree" formControlName="faciltyFree">
+              <span style="color: red" *ngIf="formReactive.controls.faciltyFree.hasError('required')">  không được để trống</span>
+
             </div>
             <div class="col-xl-4 col-md-6 col-sm-12 mb-2">
               <label class="form-label" for="rentType">Rent Type</label>
@@ -71,6 +104,8 @@
             <button type="reset" class="btn btn-primary me-1 waves-effect waves-float waves-light">Submit</button>
             <button type="reset" class="btn btn-outline-secondary waves-effect">Reset</button>
           </div>                </div>
+
+        ></form>
       </div>
     </div>
   </div>

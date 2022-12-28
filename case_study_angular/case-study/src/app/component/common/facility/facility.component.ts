@@ -83,7 +83,8 @@ export class FacilityComponent implements OnInit {
     document.getElementById("phanxemthem" + id).style.display = 'block';
     // @ts-ignore
     document.getElementById("thugoncard" + id).style.display = 'block';
-
+    // @ts-ignore
+    document.getElementById("phanthugon"+ id).style.display = 'none'
 
 
   }

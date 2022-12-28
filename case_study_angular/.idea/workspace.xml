@@ -20,16 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a04cd3b-3e80-4218-88ba-2b96cfd433e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../case_study/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../case_study/src/contract/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/contract/add.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../case_study/src/customer/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/customer/add.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../case_study/src/customer/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/customer/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../case_study/src/facility/list_service.html" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/facility/list_service.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/contract/contract.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/contract/contract.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/customer/add-customer/add-customer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/customer/add-customer/add-customer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/customer/add-customer/add-customer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/customer/add-customer/add-customer.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/customer/edit-customer/edit-customer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/customer/edit-customer/edit-customer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/customer/edit-customer/edit-customer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/customer/edit-customer/edit-customer.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/facility/add-facility/add-facility.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/facility/add-facility/add-facility.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/facility/add-facility/add-facility.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/facility/add-facility/add-facility.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/facility/facility.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/facility/facility.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/facility/facility.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/facility/facility.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case-study/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/model/customer/customer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/model/customer/customer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss1/excesice/fibonacci/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss1/excesice/fibonacci/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss1/practice/typescript-variable/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ss1/practice/typescript-variable/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss1/practice/typescript-variable/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ss1/practice/typescript-variable/src/main.ts" afterDir="false" />
@@ -52,6 +60,13 @@
       <change beforePath="$PROJECT_DIR$/../ss2/practice/thuc_hanh_2/angular-show-pet/src/app/component/common/pet/pet.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ss2/practice/thuc_hanh_2/angular-show-pet/src/app/component/common/pet/pet.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss2/practice/thuc_hanh_2/angular-show-pet/src/app/component/common/pet/pet.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ss2/practice/thuc_hanh_2/angular-show-pet/src/app/component/common/pet/pet.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss2/practice/thuc_hanh_2/angular-show-pet/src/app/component/common/pet/pet.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ss2/practice/thuc_hanh_2/angular-show-pet/src/app/component/common/pet/pet.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss4/practice/thuc_hanh_1/angular-name-card/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4/practice/thuc_hanh_1/angular-name-card/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss4/practice/thuc_hanh_1/angular-name-card/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4/practice/thuc_hanh_1/angular-name-card/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss4/practice/thuc_hanh_1/angular-name-card/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4/practice/thuc_hanh_1/angular-name-card/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss4/practice/thuc_hanh_1/angular-name-card/src/app/component/common/name-card/name-card.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4/practice/thuc_hanh_1/angular-name-card/src/app/component/common/name-card/name-card.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss4/practice/thuc_hanh_1/angular-name-card/src/app/component/common/name-card/name-card.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4/practice/thuc_hanh_1/angular-name-card/src/app/component/common/name-card/name-card.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss4/practice/thuc_hanh_2/angular-progress-bar/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4/practice/thuc_hanh_2/angular-progress-bar/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss4/practice/thuc_hanh_2/angular-progress-bar/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4/practice/thuc_hanh_2/angular-progress-bar/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +97,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ss3/practice/thuc_hanh_1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -114,7 +129,11 @@
       <updated>1671776722222</updated>
       <workItem from="1671776723358" duration="6552000" />
       <workItem from="1671788909606" duration="678000" />
-      <workItem from="1672023544686" duration="21573000" />
+      <workItem from="1672023544686" duration="21884000" />
+      <workItem from="1672109604236" duration="612000" />
+      <workItem from="1672132142898" duration="1219000" />
+      <workItem from="1672198168469" duration="617000" />
+      <workItem from="1672203427884" duration="6615000" />
     </task>
     <servers />
   </component>
@@ -141,10 +160,10 @@
       <screen x="86" y="0" width="1450" height="864" />
     </state>
     <state x="266" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/86.0.1450.864@86.0.1450.864" timestamp="1672036886504" />
-    <state x="604" y="187" key="FileChooserDialogImpl" timestamp="1672023892480">
+    <state x="604" y="187" key="FileChooserDialogImpl" timestamp="1672198775970">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1671778261931" />
-    <state x="604" y="187" key="FileChooserDialogImpl/86.0.1450.864@86.0.1450.864" timestamp="1672023892480" />
+    <state x="604" y="187" key="FileChooserDialogImpl/86.0.1450.864@86.0.1450.864" timestamp="1672198775970" />
   </component>
 </project>

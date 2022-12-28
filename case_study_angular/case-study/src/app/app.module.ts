@@ -16,6 +16,7 @@ import { AddCustomerComponent } from './component/common/customer/add-customer/a
 import { EditCustomerComponent } from './component/common/customer/edit-customer/edit-customer.component';
 import { AddContractComponent } from './component/common/contract/add-contract/add-contract.component';
 import { HomeComponent } from './component/common/home/home.component';
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 
 function AddComponent() {
 
@@ -40,7 +41,9 @@ function AddComponent() {
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
