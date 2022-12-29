@@ -1,0 +1,47 @@
+<h1>Danh sách sản phẩm</h1>
+<table class="table table-bordered"  border="2">
+ <tr>
+    <td>STT</td>
+    <td>Tên</td>
+    <td>Giá</td>
+    <td>Mô tả</td>
+    <td>Edit</td>
+    <td>Delete</td>
+  </tr>
+  <tr *ngFor="let product of products; index as i">
+    <td>{{i + 1}}</td>
+    <td>{{product.name}}</td>
+    <td>{{product.price}}</td>
+    <td>{{product.description}}</td>
+    <td><button type="button" [routerLink]="['/product/edit',product.id]">Edit</button></td>
+    <td>
+      <!-- Button trigger modal -->
+      <button (click)="infoDelete(product.id,product.name)" type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Delete
+      </button>
+    </td>
+  </tr>
+
+</table>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Bạn có muốn xoa <span style="color: red">{{nameDelete}}</span> khong?
+
+
+      </div>
+      <div class="modal-footer">
+        <button id="close-modal-delete" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Không
+        </button>
+        <button id="closemodal" type="button" class="btn btn-info" data-bs-dismiss="modal" (click)="saveDelete()">Có</button>
+      </div>
+    </div>
+  </div>
+</div>
+

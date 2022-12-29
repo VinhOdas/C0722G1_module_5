@@ -9,7 +9,7 @@ import {IRattingUnit} from "./i-ratting-unit";
 
 export class AppComponent implements OnInit{
 vote?: number;
-  cha:  IRattingUnit[] = [{
+  rattingUnits:  IRattingUnit[] = [{
     vote: 1
   },
     {

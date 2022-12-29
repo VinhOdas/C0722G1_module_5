@@ -1,3 +1,10 @@
 
+<div>Vote</div>
+<div *ngIf="rattingUnits">
+     <span *ngFor="let item of rattingUnits; index as i"  (click)="swapVote(item.vote)">
+  <button [ngStyle]="{'background': item.vote<=vote ? 'red' : ''}">{{item.vote}}</button>
+</span>
+
+</div>
 
 
