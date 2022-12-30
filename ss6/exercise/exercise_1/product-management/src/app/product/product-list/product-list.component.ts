@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {Product} from "../../model/product";
 import {ProductService} from "../../service/product.service";
 import {FormControl, FormGroup} from "@angular/forms";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-product-list',
@@ -9,7 +10,9 @@ import {FormControl, FormGroup} from "@angular/forms";
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent implements OnInit {
+  // @ts-ignore
   idDelete: number|undefined;
+  // @ts-ignore
   nameDelete: string|undefined;
   modalDeleteForm: FormGroup = new FormGroup(
     {
@@ -17,11 +20,21 @@ export class ProductListComponent implements OnInit {
       name: new FormControl(),
       price: new FormControl(),
       description: new FormControl(),
+      category: new FormControl()
     }
   )
   products: Product[] = []
-  constructor(private productService: ProductService) {
-    this.products = this.productService.getAll();
+  constructor(private productService: ProductService, private router: Router) {
+    this.productService.getAll().subscribe(data => {
+        console.log(data)
+    this.products = data;
+    },
+        error => {
+
+        },
+        () => {
+
+        });
 
   }
 
@@ -40,7 +53,7 @@ export class ProductListComponent implements OnInit {
   }
 
 
-  infoDelete(id: number, name: string) {
+  infoDelete(id: number|undefined, name: string|undefined) {
     this.idDelete=id;
     this.nameDelete = name;
   }

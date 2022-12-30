@@ -1,9 +1,11 @@
 <form [formGroup]="formReactive" (ngSubmit)="submit()" >
   <table>
-    <tr>
-      <td>Mã sản phẩm:</td>
-      <td><input type="number" formControlName="id"></td>
-    </tr>
+<!--    <tr>-->
+<!--      <td>Mã sản phẩm:</td>-->
+<!--      <td><input type="number" formControlName="id"></td>-->
+<!--    </tr>-->
+    <div *ngIf="mess!==''"><p>Them moi thanh cong</p></div>
+
     <tr>
       <td>Tên sản phẩm:</td>
       <td><input type="text" formControlName="name"></td>
@@ -17,8 +19,16 @@
       <td><input type="text" formControlName="description"></td>
     </tr>
     <tr>
+      <td>Loại sản phẩm</td>
+      <select formControlName="category">
+        <option  *ngFor="let item of categorys" [ngValue]="item">
+          {{item.name}}
+        </option>
+      </select>
+    </tr>
+    <tr>
       <td></td>
-      <td><button>Tạo mới</button></td>
+      <td><button type="submit">Tạo mới</button></td>
     </tr>
   </table>
 </form>

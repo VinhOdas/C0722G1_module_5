@@ -1,28 +1,37 @@
 <h1>Danh sách sản phẩm</h1>
-<table class="table table-bordered"  border="2">
- <tr>
-    <td>STT</td>
-    <td>Tên</td>
-    <td>Giá</td>
-    <td>Mô tả</td>
-    <td>Edit</td>
-    <td>Delete</td>
-  </tr>
-  <tr *ngFor="let product of products; index as i">
-    <td>{{i + 1}}</td>
-    <td>{{product.name}}</td>
-    <td>{{product.price}}</td>
-    <td>{{product.description}}</td>
-    <td><button type="button" [routerLink]="['/product/edit',product.id]">Edit</button></td>
-    <td>
-      <!-- Button trigger modal -->
-      <button (click)="infoDelete(product.id,product.name)" type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        Delete
-      </button>
-    </td>
-  </tr>
+<div *ngIf="products">
 
-</table>
+  <table class="table table-dark"  border="2" >
+    <thead>
+    <tr>
+      <td>STT</td>
+      <td>Tên</td>
+      <td>Giá</td>
+      <td>Mô tả</td>
+      <td>Thể loại category</td>
+      <td>Edit</td>
+      <td>Delete</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let product of products; index as i">
+      <td>{{i + 1}}</td>
+      <td>{{product.name}}</td>
+      <td>{{product.price}}</td>
+      <td>{{product.description}}</td>
+      <td>{{product.category.name}}</td>
+      <td><button type="button" [routerLink]="['/product/edit',product.id]">Edit</button></td>
+      <td>
+        <!-- Button trigger modal -->
+        <button (click)="infoDelete(product.id,product.name)" type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Delete
+        </button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+
+</div>
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">

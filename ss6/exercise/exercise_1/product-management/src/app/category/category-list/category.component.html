@@ -1,0 +1,29 @@
+<h1>Danh sách category</h1>
+<div>
+  <table class="table table-dark"  border="2" *ngIf="categorys">
+    <thead>
+    <tr>
+      <td>STT</td>
+      <td>Danh Muc</td>
+      <!-- -->
+      <!--    <td>Edit</td>-->
+      <!--    <td>Delete</td>-->
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let category of categorys; index as i">
+      <td>{{i + 1}}</td>
+      <td>{{category.name}}</td>
+
+      <!--    <td><button type="button" [routerLink]="['/product/edit',product.id]">Edit</button></td>-->
+      <!--    <td>-->
+      <!--      &lt;!&ndash; Button trigger modal &ndash;&gt;-->
+      <!--      <button (click)="infoDelete(product.id,product.name)" type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModal">-->
+      <!--        Delete-->
+      <!--      </button>-->
+      <!--    </td>-->
+    </tr>
+    </tbody>
+  </table>
+
+</div>

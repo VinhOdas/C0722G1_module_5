@@ -2,7 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import {FormControl, FormGroup} from "@angular/forms";
 import {ProductService} from "../../service/product.service";
 import {Product} from "../../model/product";
-import {ActivatedRoute} from "@angular/router";
+import {ActivatedRoute, Router} from "@angular/router";
+import {Category} from "../../model/category";
+import {CategoryService} from "../../service/category.service";
 
 @Component({
   selector: 'app-product-edit',
@@ -11,36 +13,48 @@ import {ActivatedRoute} from "@angular/router";
 })
 export class ProductEditComponent implements OnInit {
 
-  // @ts-ignore
-  productEdit: Product | null = [];
+  productEdit: Product|undefined|null;
+  categoryList: Category[] = [];
   formEdit: FormGroup = new FormGroup(
     {
       id: new FormControl(),
       name: new FormControl(),
       price: new FormControl(),
       description: new FormControl(),
+      category: new FormControl()
     }
-
-
   );
-
-  constructor(private productService: ProductService, private  activeRoute: ActivatedRoute) {
+  constructor(private productService: ProductService,
+              private categoryService: CategoryService
+              , private  activeRoute: ActivatedRoute,
+                private router: Router) {
     this.activeRoute.paramMap.subscribe(data => {
       const  id = data.get("id");
       if (id != null){
-        this.productEdit = this.productService.findById(parseInt(id));
-        // @ts-ignore
-        this.formEdit.patchValue(this.productEdit)
+        this.productService.findById(parseInt(id)).subscribe(data=>{
+          this.productEdit = data;
+          this.formEdit.patchValue(this.productEdit);
+        });
+
       }
     })
 
   }
 
   ngOnInit(): void {
+    this.productService.findAllCategory().subscribe(data => {
+      this.categoryList = data;
+    });
   }
 
   submit() {
     const product = this.formEdit.value;
-    this.productService.saveEditProduct(product);
+    this.productService.saveEditProduct(product).subscribe(data =>{
+      alert('Cập nhật thành công');
+    });
+  }
+
+  same(idOne: Category, idTwo: Category) {
+      return idOne.id = idTwo.id;
   }
 }
