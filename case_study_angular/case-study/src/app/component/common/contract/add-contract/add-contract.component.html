@@ -11,51 +11,54 @@
         <div class="card-header">
           <strong id="inDam"><h1 class="card-title" style="color: red">Create Contract</h1></strong>
         </div>
-        <form >
+        <form [formGroup]="formReactive" >
         <div class="card-body">
           <div class="row col-md-12 col-xl-12 col-sm-12" >
 
 
             <div class="col-xl-4 col-md-6 col-sm-12 mb-2">
               <label class="form-label" for="basicSelect">Name Facility </label>
-              <select class="form-select" id="basicSelect">
+              <select class="form-select" id="basicSelect" formControlName="nameFacility">
                 <option>IT</option>
                 <option>Blade Runner</option>
                 <option>Thor Ragnarok</option>
               </select>
+              <span style="color: red" *ngIf="formReactive.controls.nameFacility.hasError('required')">  không được để trống</span>
+
             </div>
 
 
-            <div class="col-xl-4 col-md-6 col-sm-12 mb-2">
-              <label class="form-label" for="name_employee">Name Employee </label>
-              <select class="form-select" id="name_employee">
-                <option>IT</option>
-                <option>Blade Runner</option>
-                <option>Thor Ragnarok</option>
-              </select>
-            </div>
 
             <div class="col-xl-4 col-md-6 col-sm-12 mb-2">
               <label class="form-label" for="name_customer">Name Customer </label>
-              <select class="form-select" id="name_customer">
+              <select class="form-select" id="name_customer" formControlName="nameCustomer">
                 <option>IT</option>
                 <option>Blade Runner</option>
                 <option>Thor Ragnarok</option>
               </select>
+              <span style="color: red" *ngIf="formReactive.controls.nameCustomer.hasError('required')">  không được để trống</span>
+
             </div>
 
 
             <div class="col-xl-4 col-md-6 col-sm-12 mb-2">
               <label class="form-label" for="dayStart">Day Start:</label>
-              <input type="date" class="form-control time-mask" placeholder="?" id="dayStart">
+              <input type="date" class="form-control time-mask" placeholder="?" id="dayStart" formControlName="dayStart">
+              <span style="color: red" *ngIf="formReactive.controls.dayStart.hasError('required')">  không được để trống</span>
+
             </div>
             <div class="col-xl-4 col-md-6 col-sm-12 mb-2">
               <label class="form-label" for="endDateForm">End Day:</label>
-              <input type="text" class="form-control numeral-mask" placeholder="input number people" id="endDateForm">
+              <input type="text" class="form-control numeral-mask" placeholder="input number people" id="endDateForm"
+                     formControlName="endDate">
+              <span style="color: red" *ngIf="formReactive.controls.endDate.hasError('required')">  không được để trống</span>
+
             </div>
             <div class="col-xl-4 col-md-6 col-sm-12 mb-2">
               <label class="form-label" for="deposit">Deposit(VNĐ):</label>
-              <input type="number" class="form-control block-mask" placeholder="giá" id="deposit">
+              <input type="number" class="form-control block-mask" placeholder="giá" id="deposit" formControlName="deposit">
+              <span style="color: red" *ngIf="formReactive.controls.deposit.hasError('required')">  không được để trống</span>
+
             </div>
 
 
