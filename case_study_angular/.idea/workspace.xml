@@ -20,24 +20,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a04cd3b-3e80-4218-88ba-2b96cfd433e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/.idea/exercise_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/app/model/product.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/app/product/product-create/product-create.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/app/product/product-create/product-create.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/app/product/product-create/product-create.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/app/product/product-edit/product-edit.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/app/product/product-edit/product-edit.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/app/product/product-edit/product-edit.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/app/product/product-list/product-list.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/app/product/product-list/product-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/app/product/product-list/product-list.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/app/service/product.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/tslint.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../case_study/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../case_study/src/contract/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/contract/add.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../case_study/src/customer/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/customer/add.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../case_study/src/customer/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/customer/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../case_study/src/facility/list_service.html" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/facility/list_service.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case-study/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case-study/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/contract/contract.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/contract/contract.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/customer/add-customer/add-customer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/customer/add-customer/add-customer.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/customer/add-customer/add-customer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/customer/add-customer/add-customer.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/customer/edit-customer/edit-customer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/customer/edit-customer/edit-customer.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/customer/edit-customer/edit-customer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/customer/edit-customer/edit-customer.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/facility/add-facility/add-facility.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/facility/add-facility/add-facility.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/facility/add-facility/add-facility.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/facility/add-facility/add-facility.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/facility/facility.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/facility/facility.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/facility/facility.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/facility/facility.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case-study/src/model/customer/customer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/model/customer/customer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss1/excesice/fibonacci/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss1/excesice/fibonacci/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss1/practice/typescript-variable/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ss1/practice/typescript-variable/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss1/practice/typescript-variable/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ss1/practice/typescript-variable/src/main.ts" afterDir="false" />
@@ -60,6 +96,12 @@
       <change beforePath="$PROJECT_DIR$/../ss2/practice/thuc_hanh_2/angular-show-pet/src/app/component/common/pet/pet.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ss2/practice/thuc_hanh_2/angular-show-pet/src/app/component/common/pet/pet.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss2/practice/thuc_hanh_2/angular-show-pet/src/app/component/common/pet/pet.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ss2/practice/thuc_hanh_2/angular-show-pet/src/app/component/common/pet/pet.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss2/practice/thuc_hanh_2/angular-show-pet/src/app/component/common/pet/pet.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ss2/practice/thuc_hanh_2/angular-show-pet/src/app/component/common/pet/pet.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss4/exercise/exercise_1/vote-app/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4/exercise/exercise_1/vote-app/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss4/exercise/exercise_1/vote-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4/exercise/exercise_1/vote-app/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss4/exercise/exercise_1/vote-app/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4/exercise/exercise_1/vote-app/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss4/exercise/exercise_1/vote-app/src/app/component/common/ratting-unit/ratting-unit.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4/exercise/exercise_1/vote-app/src/app/component/common/ratting-unit/ratting-unit.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss4/exercise/exercise_1/vote-app/src/app/component/common/ratting-unit/ratting-unit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4/exercise/exercise_1/vote-app/src/app/component/common/ratting-unit/ratting-unit.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss4/exercise/exercise_1/vote-app/src/app/component/common/ratting-unit/ratting-unit.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4/exercise/exercise_1/vote-app/src/app/component/common/ratting-unit/ratting-unit.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss4/practice/thuc_hanh_1/angular-name-card/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4/practice/thuc_hanh_1/angular-name-card/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss4/practice/thuc_hanh_1/angular-name-card/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4/practice/thuc_hanh_1/angular-name-card/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss4/practice/thuc_hanh_1/angular-name-card/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4/practice/thuc_hanh_1/angular-name-card/src/app/app.module.ts" afterDir="false" />
@@ -133,7 +175,9 @@
       <workItem from="1672109604236" duration="612000" />
       <workItem from="1672132142898" duration="1219000" />
       <workItem from="1672198168469" duration="617000" />
-      <workItem from="1672203427884" duration="6615000" />
+      <workItem from="1672203427884" duration="6921000" />
+      <workItem from="1672285548017" duration="620000" />
+      <workItem from="1672301737024" duration="651000" />
     </task>
     <servers />
   </component>
