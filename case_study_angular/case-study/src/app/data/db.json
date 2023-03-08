@@ -1,0 +1,212 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "name": "Cafe",
+      "dateOfBirth": "17-11-1999",
+      "gender": 1,
+      "idCard": "2232323",
+      "phoneNumber": "0799061071",
+      "email": "gamquangvinh@gmail.com",
+      "address": "Quang Binh",
+      "customerType": {
+        "id": 1,
+        "name": "Diamond"
+      }
+    },
+    {
+      "name": "k",
+      "dateOfBirth": "",
+      "gender": "",
+      "idCard": "k",
+      "phoneNumber": "0989888",
+      "email": "k",
+      "address": "k",
+      "id": 2
+    },
+    {
+      "name": "sadasd",
+      "dateOfBirth": "",
+      "gender": "",
+      "idCard": "sad",
+      "phoneNumber": "s",
+      "email": "s",
+      "address": "s",
+      "id": 3
+    },
+    {
+      "name": "sadasd",
+      "dateOfBirth": "",
+      "gender": "",
+      "idCard": "sad",
+      "phoneNumber": "s",
+      "email": "s",
+      "address": "s",
+      "id": 4
+    },
+    {
+      "name": "sad",
+      "dateOfBirth": "",
+      "gender": "",
+      "idCard": "333",
+      "phoneNumber": "3",
+      "email": "3",
+      "address": "3",
+      "id": 5
+    },
+    {
+      "name": "sadasd",
+      "dateOfBirth": "2023-01-03",
+      "gender": "",
+      "idCard": "222",
+      "phoneNumber": "222",
+      "email": "22",
+      "address": "222",
+      "id": 6
+    },
+    {
+      "name": "sadasd",
+      "dateOfBirth": "2023-01-10",
+      "gender": "",
+      "idCard": "24211201346",
+      "phoneNumber": "222",
+      "email": "wwww",
+      "address": "Mars",
+      "id": 7
+    },
+    {
+      "name": "l",
+      "dateOfBirth": "",
+      "gender": "",
+      "idCard": "",
+      "phoneNumber": "",
+      "email": "",
+      "address": "",
+      "id": 8
+    },
+    {
+      "name": "l",
+      "dateOfBirth": "",
+      "gender": "",
+      "idCard": "",
+      "phoneNumber": "",
+      "email": "",
+      "address": "",
+      "id": 9
+    },
+    {
+      "name": "l",
+      "dateOfBirth": "",
+      "gender": "",
+      "idCard": "",
+      "phoneNumber": "",
+      "email": "",
+      "address": "",
+      "id": 10
+    },
+    {
+      "name": "asdasdad",
+      "dateOfBirth": "2023-01-11",
+      "gender": "",
+      "idCard": "2222",
+      "phoneNumber": "22",
+      "email": "sad",
+      "address": "22",
+      "id": 11
+    },
+    {
+      "name": "asdasdad",
+      "dateOfBirth": "2023-01-11",
+      "gender": "",
+      "idCard": "2222",
+      "phoneNumber": "22",
+      "email": "sad",
+      "address": "22",
+      "id": 12
+    },
+    {
+      "name": "s",
+      "dateOfBirth": "2023-01-10",
+      "gender": "",
+      "idCard": "333",
+      "phoneNumber": "3",
+      "email": "3",
+      "address": "3",
+      "id": 13
+    },
+    {
+      "name": "s",
+      "dateOfBirth": "2023-01-10",
+      "gender": "",
+      "idCard": "333",
+      "phoneNumber": "3",
+      "email": "3",
+      "address": "3",
+      "id": 14
+    },
+    {
+      "name": "",
+      "dateOfBirth": "",
+      "gender": "1",
+      "idCard": "",
+      "phoneNumber": "",
+      "email": "",
+      "address": "",
+      "id": 15
+    },
+    {
+      "name": "sadas",
+      "dateOfBirth": "2023-01-18",
+      "gender": "1",
+      "idCard": "24211201346",
+      "phoneNumber": "0989888",
+      "email": "gamquangivnh@gmail.com",
+      "address": "sad",
+      "id": 16
+    },
+    {
+      "name": "s",
+      "dateOfBirth": "2023-01-10",
+      "gender": "1",
+      "idCard": "24211201346",
+      "phoneNumber": "0901222111",
+      "email": "sdas",
+      "address": "3",
+      "id": 17
+    },
+    {
+      "name": "s",
+      "dateOfBirth": "2023-01-10",
+      "gender": "1",
+      "idCard": "24211201346",
+      "phoneNumber": "0901222111",
+      "email": "sdas",
+      "address": "3",
+      "id": 18
+    },
+    {
+      "name": "s",
+      "dateOfBirth": "2023-01-10",
+      "gender": "1",
+      "idCard": "24211201346",
+      "phoneNumber": "0901222111",
+      "email": "sdas",
+      "address": "3",
+      "id": 19
+    }
+  ],
+  "customerTypes": [
+    {
+      "id": 1,
+      "name": "Diamond"
+    },
+    {
+      "id": 2,
+      "name": "Platinum"
+    },
+    {
+      "id": 3,
+      "name": "Gold"
+    }
+  ]
+}

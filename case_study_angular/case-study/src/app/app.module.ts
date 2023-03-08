@@ -17,6 +17,7 @@ import { EditCustomerComponent } from './component/common/customer/edit-customer
 import { AddContractComponent } from './component/common/contract/add-contract/add-contract.component';
 import { HomeComponent } from './component/common/home/home.component';
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import {HttpClientModule} from "@angular/common/http";
 
 function AddComponent() {
 
@@ -43,7 +44,9 @@ function AddComponent() {
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    // NgxPaginationModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

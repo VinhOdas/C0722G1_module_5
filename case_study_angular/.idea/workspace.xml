@@ -20,15 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a04cd3b-3e80-4218-88ba-2b96cfd433e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/case-study/src/app/data/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case-study/src/app/service/customer/customer.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../case_study/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../case_study/src/contract/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/contract/add.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../case_study/src/customer/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/customer/add.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../case_study/src/customer/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/customer/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../case_study/src/facility/list_service.html" beforeDir="false" afterPath="$PROJECT_DIR$/../case_study/src/facility/list_service.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/contract/add-contract/add-contract.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/contract/add-contract/add-contract.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/contract/add-contract/add-contract.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/contract/add-contract/add-contract.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/contract/contract.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/contract/contract.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/contract/contract.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/contract/contract.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/customer/add-customer/add-customer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/customer/add-customer/add-customer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/customer/add-customer/add-customer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/customer/add-customer/add-customer.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/customer/customer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/customer/customer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/app/component/common/customer/customer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/component/common/customer/customer.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/model/customer/customer-type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/model/customer/customer-type.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case-study/src/model/customer/customer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/model/customer/customer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss1/excesice/fibonacci/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss1/excesice/fibonacci/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss1/practice/typescript-variable/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ss1/practice/typescript-variable/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss1/practice/typescript-variable/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ss1/practice/typescript-variable/src/main.ts" afterDir="false" />
@@ -58,8 +70,10 @@
       <change beforePath="$PROJECT_DIR$/../ss4/practice/thuc_hanh_1/angular-name-card/src/app/component/common/name-card/name-card.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4/practice/thuc_hanh_1/angular-name-card/src/app/component/common/name-card/name-card.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss4/practice/thuc_hanh_2/angular-progress-bar/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4/practice/thuc_hanh_2/angular-progress-bar/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss4/practice/thuc_hanh_2/angular-progress-bar/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ss4/practice/thuc_hanh_2/angular-progress-bar/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/app/product/product-list/product-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/app/product/product-list/product-list.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/app/service/product.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../ss6/exercise/exercise_1/product-management/src/app/service/product.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss8/ss8_connect_backend/exercises/todo/service/todo.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/case-study/src/app/service/customer/customer.service.spec.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +115,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JAVA_REPLY\module_5\C0722G1_module_5\case_study_angular\case-study\src\app\service\customer" />
       <recent name="D:\JAVA_REPLY\module_5\C0722G1_module_5\case_study_angular\case-study\src\model\employee" />
       <recent name="D:\JAVA_REPLY\module_5\C0722G1_module_5\case_study_angular\case-study\src\assets" />
       <recent name="D:\JAVA_REPLY\module_5\C0722G1_module_5\case_study_angular\case-study\src\app" />
@@ -130,7 +145,10 @@
       <workItem from="1672285548017" duration="620000" />
       <workItem from="1672301737024" duration="651000" />
       <workItem from="1672456667351" duration="341000" />
-      <workItem from="1672458477168" duration="1192000" />
+      <workItem from="1672458477168" duration="2186000" />
+      <workItem from="1672799944189" duration="8161000" />
+      <workItem from="1678182812804" duration="254000" />
+      <workItem from="1678183088587" duration="148000" />
     </task>
     <servers />
   </component>
@@ -157,10 +175,10 @@
       <screen x="86" y="0" width="1450" height="864" />
     </state>
     <state x="266" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/86.0.1450.864@86.0.1450.864" timestamp="1672036886504" />
-    <state x="604" y="187" key="FileChooserDialogImpl" timestamp="1672198775970">
+    <state x="604" y="187" key="FileChooserDialogImpl" timestamp="1672800442382">
       <screen x="86" y="0" width="1450" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1671778261931" />
-    <state x="604" y="187" key="FileChooserDialogImpl/86.0.1450.864@86.0.1450.864" timestamp="1672198775970" />
+    <state x="604" y="187" key="FileChooserDialogImpl/86.0.1450.864@86.0.1450.864" timestamp="1672800442382" />
   </component>
 </project>
